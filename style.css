@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #009980, #999) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.main-container{
+    background-color: antiquewhite;
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.contain {
+    padding: 2rem;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 2rem ;
+}
+.answer {
+    margin: 0 1rem;
+
+}
+
+button {
+    background-color: blue;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+
+}
+
+.button:hover {
+    background-color: purple;
+}
